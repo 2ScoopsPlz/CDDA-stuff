@@ -1,0 +1,63 @@
+[
+  {
+    "type": "TOOL",
+    "id": "moonsword_off",
+    "name": "Worn Sword (off)",
+    "description": "An old, worn blade wrapped in faded bandages. You find its presence comforting.",
+    "weight": 1940,
+    "volume": 9,
+    "color": "light_gray",
+    "symbol": "/",
+    "material": ["steel"],
+    "flags": ["DURABLE_MELEE", "SHEATH_SWORD"],
+    "techniques": ["RAPID", "SPIN", "IMPALE", "WBLOCK_2"],
+    "bashing": 5,
+    "cutting": 36,
+    "to_hit": 2,
+    "category": "weapons",
+    "price": 100000,
+    "qualities": [["CUT", 1], ["BUTCHER", 10]],
+    "use_action": [
+      {
+        "menu_text": "Transform",
+        "type": "transform",
+        "target": "moonsword_on",
+        "moves": 10,
+        "msg": "You glide your hand along the blade, calling forth your Mentor..."
+      }
+    ]
+  },
+  {
+    "type": "TOOL",
+    "id": "moonsword_on",
+    "name": "The Moonlight Greatsword (on)",
+    "description": "                                              A Holy blade of immense power, in the right hands. The blade whispers clearly in your mind, guiding you where it can. Its glow soothes your psyche of the world's horror...",
+    "weight": 1940,
+    "volume": 9,
+    "color": "light_gray",
+    "symbol": "/",
+    "material": ["steel"],
+    "flags": ["STAB", "UNBREAKABLE_MELEE", "SHEATH_SWORD", "MAGIC_FOCUS", "LIGHT_15", "REACH_ATTACK", "REACH3", "SLEEP_AID", "ALWAYS_TWOHAND"],
+    "techniques": ["SWEEP", "WIDE", "BRUTAL", "WBLOCK_3"],
+    "bashing": 38,
+    "cutting": 18,
+    "to_hit": 2,
+    "category": "weapons",
+    "price": 10000000,
+    "use_action": [
+      {
+        "menu_text": "Transform",
+        "type": "transform",
+        "target": "moonsword_off",
+        "moves": 10,
+        "msg": "You dispell your Mentor's soothing presence. It almost seems worried for you."
+ },
+      "ARTIFACT"
+    ],
+    "artifact_data": {
+      "charge_type": "ARTC_TIME",
+	  "effects_wielded": ["AEP_PSYSHIELD"],
+      "effects_activated": ["AEA_LIGHT", "AEA_FUN"]
+    }
+  }
+]

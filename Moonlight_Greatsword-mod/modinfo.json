@@ -1,0 +1,10 @@
+{
+  "type": "MOD_INFO",
+  "mod_type": "SUPPLEMENTAL",
+  "ident": "moonsword-mod",
+  "name": "Moonlight Greatsword Mod",
+  "author": "2ScoopsPlz",
+  "category": "content",
+  "description": "Adds the Moonlight Greatsword from the Souls series! It has two forms (the 'off' version is mainly so you can avoid carrying around a big glowstick all day), a ranged attack, a glowing effect (it produces the same amount of light as an atomic lamp), and has certain artifact effects. If any of these are things you don't like, feel free to change them yourself in the json file. It doesn't spawn naturally as of now, so in order to get it you'll need to debug it in unfortunately.",
+  "path": ""
+}

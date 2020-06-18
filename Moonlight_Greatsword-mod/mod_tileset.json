@@ -1,0 +1,20 @@
+{
+    "type": "mod_tileset",
+    "compatibility": [ "MshockXottoplus", "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE" ],
+    "tiles-new": [
+      {
+        "file": "MoonlightSword32x32.png",
+	    "tiles":
+	[
+		{
+	      "id": "overlay_wielded_moonsword_on",
+		  "fg": 0
+		},
+		{
+		  "id": "overlay_wielded_moonsword_off",
+		  "fg": 1
+		}
+	]
+}
+	]
+}
